@@ -42,9 +42,3 @@ article:nth-child(4),
 article:nth-child(5), {
     margin-top: 2%;
 }
-
-.button-styling {
-    display: flex;
-    justify-content: center;
-    margin-top: 3%;
-}
