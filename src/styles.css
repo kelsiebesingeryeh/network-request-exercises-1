@@ -1,0 +1,43 @@
+body {
+    font-family: 'Poppins',
+        sans-serif;
+    background-color: #2081C3;
+}
+
+h1 {
+    text-align: center;
+    color: #F7F9F9;
+    font-size: 2.5em;
+}
+
+article {
+    border: 3px solid #F7F9F9;
+    background-color: #63D2FF;
+    border-radius: 15px;
+    margin: auto;
+    width: 35%;
+    max-width: 35%;
+    height: 400px;
+    font-size: 1.25em;
+    text-align: center;
+    color: #F7F9F9;
+}
+
+.animal-name {
+    font-size: 2em;
+}
+
+.animal-info {
+    margin: auto;
+}
+
+div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+article:nth-child(3),
+article:nth-child(4) {
+    margin-top: 2%;
+}
