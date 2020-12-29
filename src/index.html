@@ -15,6 +15,24 @@
           <div class="animal-styling">
           </div>
         </section>
+        <button class="new-animal-button btn">Add New Animal</button>
+          <form class="animalForm hidden">
+            <label for="animalID">Animal ID:</label>
+            <input type="text" id="animalID" name="animalID"><br>
+            <label for="animalType">Animal Type:</label>
+            <input type="text" id="animalType" name="animalType"><br>
+            <label for="animalDiet">Animal Diet:</label>
+            <input type="text" id="animalDiet" name="animalDiet"><br>
+            <label for="animalFact">Animal Fun Fact:</label>
+            <input type="text" id="animalFact" name="animalFact"><br>
+            <button type="submit" class="submit-animal-button btn">Submit Animal</button>
+          </form>
+          <button type="submit" class="delete-animal-button btn">Remove Animal</button>
+          <form class="deleteAnimalForm hidden">
+            <label for="deleteAnimalID">Enter Animal ID to Delete:</label>
+            <input type="text" id="deleteAnimalID" name="deleteAnimalID"><br>
+            <button type="submit" class="submit-delete-animal-button btn">Delete Animal</button>
+          </form>
     </main>
     <script src="scripts.js"></script>
   </body>
